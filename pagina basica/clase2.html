@@ -1,0 +1,78 @@
+<html>
+    <head>
+   <meta charset="UTF-8">
+   <title>
+       componentes html 
+   </title>
+</head>
+<body>
+    <h1>Algunos componentes html
+    </h1>
+    <p> crear un parrafo</p>
+    <table width="200" border="1" bgcolor="white">
+<tr>
+    <th>
+        titulo 1
+    </th>
+    <th>
+        titulo 2
+    </th>
+    <td> Dato 1</td>
+    <td> Dato 2</td>
+</tr>
+
+    </table>
+    crear un select
+    <select name="lista1">
+        <option>valor1</option>
+        <option>valor2</option>
+        <option>valor3</option>
+    </select>
+    crear formulario
+    <form name="formulario1" action="/recursosenservidor">
+    <fieldset>
+        <legend>Persona:</legend>
+        name:<input type="text" size="30" name="nombre"/> <br/>
+        Email:<input type="text" size="30" name="email"/> <br/>
+        <button type="submit">
+            Enviar Datos
+        </button>
+    </fieldset>
+    </form>
+    <fieldset>
+        <legend>datos personales:</legend>
+        <div>
+            
+          Ingrese documento:<input type="text" size="30" name="nombre"/> <br/>
+          seleccione tipo de documento<br>
+          <input type="radio" id="contactChoice1"
+           name="contact" value="T.I." checked>
+          <label for="contactChoice1">T.I.</label>
+    
+          <input type="radio" id="contactChoice2"
+           name="contact" value="phone">
+          <label for="contactChoice2">C.C.</label>
+    
+          <input type="radio" id="contactChoice3"
+           name="contact" value="C.E.">
+          <label for="contactChoice3">C.E.</label>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Selecciona tus intereses::</legend>
+        <div>
+        <br />
+        <input name="cbipeliculas" type="checkbox" />Películas
+        <br />
+        <input name="cbilibros" type="checkbox" />Libros
+        <br />
+        <input name="cbiinternet" type="checkbox" />Internet
+    </div>
+</fieldset>
+    <a href="html/servicios.html"> Ir a servicios</a>
+</body>
+
+   </html>
